@@ -3,10 +3,12 @@ def calcular(a, b, c):
     return res
 
 def principal():
-    x = 5
-    y = 3
-    z = 7
-    resultado = calcular(x, y, z)
-    print("El resultado es:", resultado)
+    a = float(input("Ingrese el primer valor (a): "))
+    b = float(input("Ingrese el segundo valor (b): "))
+    c = float(input("Ingrese el tercer valor (c): "))
+    resultado = calcular(a, b, c)
+    print(f"El resultado es: {resultado}")
 
-principal()
+if __name__ == "__main__":
+    principal()
+
